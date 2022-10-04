@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: none;
+}
+.banner {
+  background-image: url(../images/image.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+.banner .container-banner {
+  position: relative;
+  z-index: 5;
+}
+.banner .row {
+  align-items: center;
+}
+.about-me {
+  min-height: 100vh;
+}
+.container-banner {
+  width: 100%;
+}
+.text_side {
+  padding-top: 200px;
+  padding-bottom: 0px;
+}
+/* navigation */
+.navigation {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+#navbarNav {
+  justify-content: flex-end;
+}
+.navbar-light .navbar-brand {
+  color: #2299aa !important;
+  font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+  font-weight: 600;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+.nav-item a:hover {
+  background-color: #2299aa !important;
+}
+.nav-item a:active {
+  text-decoration: double;
+}
+
+.about-me {
+  background-color: var(--bs-body-color);
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.about-text {
+  border: 2px solid;
+  border-color: white;
+}
+.fun-banner {
+  background-color: grey;
+  height: 48vh;
+  width: 100%;
+  color: white;
+  opacity: 20%;
+}
+.lead {
+  font-weight: 600 !important;
+}
+.contacts{
+    background-color: white;
+  min-height: 20vh;
+  position: relative;
+}
