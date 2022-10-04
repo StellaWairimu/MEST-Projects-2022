@@ -84,7 +84,7 @@ body {
 }
 .banner-portfolio{
   background-color: white;
-  min-height: 45vh;
+  min-height: 35vh;
   position: relative;
   font-weight: 100;
   margin-top: 50px;
@@ -96,4 +96,5 @@ body {
 }
 .main-project{
   background-color: aqua;
+  min-height: 100vh;
 }
