@@ -62,6 +62,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
+ 
 }
 .about-text {
   border: 2px solid;
@@ -107,5 +108,9 @@ body {
   background-color: white;
   width: 100%;
   align-items: center;
-  padding: 16px;
+  background-image:url(../images/reach.jpg);
+  background-position: center;
+  background-size: cover;
+ 
+  
 }
