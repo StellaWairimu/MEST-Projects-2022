@@ -78,7 +78,10 @@ body {
   font-weight: 600 !important;
 }
 .contacts{
-    background-color: white;
-  min-height: 20vh;
-  position: relative;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  padding: 16px;
+  
+  
 }
